@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+/* Sobre */
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#Todos{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+}
+
+.Sobre{
+    width: 75%; height: auto;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#Flex{
+    justify-content: space-between;
+}
+
+#Texto{
+    margin-left: 40px;
+}

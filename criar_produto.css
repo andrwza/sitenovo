@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#Todos{  
+    width: 75%; 
+    height: auto;
+    margin-top: 5%; 
+    margin-bottom: 5%; 
+    margin-left: 10%;
+}
+
+#Flex{
+    display: flex;
+}
+
+form{
+    display: flex;
+}
+
+#Painel{
+    width: 75%; 
+    height: auto;
+    padding: 10px;
+}   
+#Perguntas{
+    width: 300px;
+}
+#Perguntas textarea{
+    height: 50px;   
+}
+#Publico{
+    padding-left: 40%;
+    width: 500px;
+}
+#Opcoes{
+    margin-left: 6px;
+    padding-left: 6px;
+    padding-bottom: 30%;
+}
+
+.ProxPag {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    margin-top: 20px;
+}
+
+.ProxPag:hover {
+    background-color: black;
+    color: white
+}

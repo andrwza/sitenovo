@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#Todos {
+    margin-top: 60px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/*Produto*/
+#Produto {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    height: auto;
+}
+
+#TodosOsProdutos {
+    display: flex;
+    flex-direction: row;
+}
+
+#ImgProduto {
+    display: flex;
+    justify-content: center;
+}
+
+.Feedback {
+    width: 200px;
+}
+
+#DescProduto {
+    padding-left: 200px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Principal {
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#Principal p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Preco p {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#Preco {
+    text-transform: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#Escolha {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*descricao*/
+.Descricao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.Comprar {
+    text-align: center;
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.Comprar:hover {
+    background-color: black;
+    color: white
+}
+
+.Comprar i {
+    vertical-align: middle;
+}
+
+.AdcCarrinho {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.AdcCarrinho:hover {
+    background-color: black;
+    color: white;
+}
+
+.AdcCarrinho i {
+    vertical-align: middle;
+}

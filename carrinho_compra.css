@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+
+#Todos{
+    width: 90%; height: auto;
+    margin-top: 4%; 
+    margin-bottom: 25%; 
+    margin-left: 5%;
+    padding-left: 15%; 
+    padding-right: 5%;
+}
+#Flex{
+    display: flex;
+}
+
+/*Produtos*/
+.Prod{
+    display: flex;
+    flex-direction: column;
+}
+.Excluir{
+    color: black;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Produtos{
+    display: flex;
+    justify-content: space-between;
+}
+.imgProduto{
+    width: min-content; height: min-content;
+    margin-right: 70px;
+}
+
+.qnt{
+    width: 40px;
+    font-size: 18px;
+    border:white 1px solid;
+    border-radius: 12%;
+    text-align: center;
+    margin-top: 10px;
+}
+.Nome{
+    display: flex;
+    padding: 10px 0px;
+    justify-content: start;
+    align-items: center;
+    width: 80%;
+}
+.Preco{
+    display: flex;
+    padding: 10px; padding-right: 50px; padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 5%;
+}
+.Remover{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+/*Compra*/
+.Direita{
+    width: 30%; height: 275px;
+    margin: 15px;
+    margin-left: 40px;
+
+}
+#Compra{
+    display: flex;
+    height: 50px;
+    align-items: center; justify-content: center;
+}
+#Valores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80px;
+    margin-left: 10px; margin-right: 10px; margin-top: 20px; margin-bottom: 20px;
+}
+
+/*Pagamento e Endereço*/
+#Endereco{
+    color: black;
+}
+.FormEnd{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.FormEnd input{
+    width: 90%;
+    background-color: #f3f4f6;
+    border:none;
+    border-radius: 4px;
+    font-size: large;
+}
+
+#Pagamento{
+    margin-top: 20px;
+}
+
+.ProxPag {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid black;
+    padding: 12px 25px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.ProxPag:hover {
+    background-color: black;
+    color: white
+}
+
+.ProxPag i {
+    vertical-align: middle;
+}

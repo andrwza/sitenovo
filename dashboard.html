@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="header_footer\header_footer.css">
+    <title>Incentive You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!--ICON-->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/Elementos/32.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+            <a href="#" class="logo"><img src="img\Elementos\logo.png" alt=""></a>
+    
+            <div class="Pesquisar">
+                <input type="text" id="Busca" placeholder="Buscar..." />
+    
+                <div id="ImgBuscar">
+                    <i class='bx bx-search'></i>
+                </div>
+    
+            </div>
+    
+            <div class="NaveIcon">
+                <a href="registro_login.html"><i class='bx bx-user'></i></a>
+                <a href="carrinho.html"><i class='bx bx-cart'></i></a>
+                <a href="dashboard.html"><i class='bx bxs-dashboard'></i></a>
+                <a href="sobre.html"><i class='bx bx-buildings'></i></a>
+                <a href="index.html"><i class='bx bx-home'></i></a>
+            </div>
+    </header>
+
+    <!-- DASHBOARD -->
+    <section>
+        <div id="Todos">
+            <h1>DASHBOARD</h1>
+            <div id="Flex">
+                <!-- PRODUTOS -->
+                <div id="Painel">
+                    <h1><a href="criar_produto.html">+ Adicionar um Produto</a></h1><br>
+                    <h1><a href="#">Relatórios:</a></h1>
+                    <ul>
+                        <li><a href="#">Relatório 1</a></li>
+                        <li><a href="#">Relatório 2</a></li>
+                        <li><a href="#">Relatório 3</a></li>
+                    </ul>
+                </div>
+
+                <div id="Produto1">
+                    <h2>PRODUTOS</h2>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\1.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Blusa 'Alexis'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$55,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\2.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Calça Flare 'Philippa'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$48,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\3.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Jaqueta Entre Estações 'Dakota'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$175,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\4.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Saia 'Hailey'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$33,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\5.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Gorro 'Nova'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$32,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\6.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Blusa 'Maria'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$54,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\7.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Camiseta 'Isabella'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$32,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                    <div class="Produtos">
+                        <div class="Linha">
+                            <div class="imgProduto"><img src="img\Produtos\8.jpg" width="80px" height="100px"></div>
+                            <div class="Sobre">
+                                <div class="Produto">
+                                    <p>Casaco Entre Estações 'Hanna'</p>
+                                </div>
+                                <div class="Estoque">
+                                    <p>Estoque:</p>
+                                    <input type="number" class="Quantidade" name="Quantidade" value="1">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Preco">
+                            <span>R$145,90</span>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Editar</a>
+                        </div>
+                        <div class="Remover">
+                            <a href="#">Excluir</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <section class="Contatos">
+            <div id="ContatosInfo">
+                <div class="PrimeiraInfo">
+                    <img src="Img/Elementos/logo.png" alt="">
+
+                    <ul>
+                        <li>Itapetininga <br>Brasil</li>
+                        <li>(15) 0000-0000</li>
+                        <li>andreza@gmail.com</li>
+                    </ul>
+
+                    <div class="SocialIcons">
+                        <a href="https://pt-br.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://twitter.com/"><i class='bx bx-x'></i></a>
+                        <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.youtube.com/"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+
+                <div class="SegundaInfo">
+                    <ul>
+                        <li><h4><a href="#">Apoio</a></h4></li>
+                        <li><a href="#">Contate-nos</a></li>
+                        <li><a href="sobre.html">Sobre a página</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <div class="TerceiraInfo">
+                    <ul>
+                        <li><h4><a href="#">Shop</a></h4></li>
+                        <li><a href="#">Masculino</a></li>
+                        <li><a href="#">Feminino</a></li>
+                    </ul>
+                </div>
+
+                <div class="QuartaInfo">
+                    <ul>
+                        <li><h4><a href="#">Empresa</a></h4></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="registro_login.html">Login</a></li>
+                    </ul>
+                </div>
+
+                <div class="QuintaInfo">
+                    <ul>
+                        <li><h4><a href="registro_login.html">Faça sua conta</a></h4></li>
+                        <li><a href="#">Spam</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
