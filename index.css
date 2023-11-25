@@ -15,6 +15,7 @@ section {
 
 /* Produtos */
 .Produto1 {
+    margin-top: 3%;
     display: flex; 
     width: 100%; 
 }
