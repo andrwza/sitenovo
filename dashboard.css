@@ -26,11 +26,15 @@ section{
 #Todos{  
     margin-top: 60px;
     margin-bottom: 60px;
-    width: 100%; height: auto;
-    margin: 10px; padding: 20px;
+    width: 100%; 
+    height: auto;
+    margin: 10px; 
+    padding: 20px;
 }
+
 #Painel{
-    width: 20%; height: 100px;
+    width: 20%; 
+    height: 100px;
     padding: 0px;
     display: block;
     font-size: 15px;
@@ -41,11 +45,14 @@ section{
 #Painel a:hover{
     color: #ee1c47; 
 }
+
 /* Produtos */
 #Produto1{
-    width: 100%; height: auto;
-    padding: 10px; margin-left: 100px;
     display: block;
+    width: 100%; 
+    height: auto;
+    padding: 10px; 
+    margin-left: 100px;
 }
 .Produtos{
     display: flex;
@@ -57,8 +64,8 @@ section{
     flex-direction: column;
 }
 .imgProduto{
-    width: min-content; height: min-content;
-    border-radius: 10px;
+    width: min-content; 
+    height: min-content;
     margin-right: 8px;
 }
 .Produto p{
@@ -72,12 +79,12 @@ section{
 }
 .Quantidade{
     width: 50px;
-    font-size: 18px;
-    background-color: white;
-    border:white 1px solid;
     border-radius: 10px;
     text-align: center;
     margin-top: 0px; 
+    font-size: 18px;
+    background-color: white;
+    border:white 1px solid;
 }
 .Linha{
     font-weight: bold;
@@ -95,19 +102,22 @@ section{
     font-weight: bold;
 }
 .Remover a{
-    color: black;
-    width: 60px; height: 30px;
+    width: 60px; 
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
 }
 
 .Preco{
     display: flex;
-    padding: 10px; padding-right: 50px; padding-left: 30px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     width: 5%;
+    padding: 10px; 
+    padding-right: 50px; 
+    padding-left: 30px;
 }
 
