@@ -2,15 +2,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    scroll-behavior: smooth;
     font-family: 'jost', sans-serif;
     list-style: none;
     text-decoration: none;
 }
+
 main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -21,8 +20,6 @@ main{
     width: 80%;
     height: 75%;
     display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 0%; 
 }
 
 /* Login */
@@ -33,10 +30,6 @@ main{
 }
 #FormLogin{
     padding-top: 10px;
-}
-#FormLogin form{
-    display: flex;
-    flex-direction: column;
 }
 #FormLogin form input{
     width: 90%;
@@ -111,9 +104,6 @@ main{
 #Estado{
     width: 70%;
 }
-#FormSexo{
-    display: flex;
-}
 #FormSexo #Fem, #FormSexo #Masc{
     width: auto;
     margin-top: 0px;
@@ -122,7 +112,6 @@ main{
 #Botao{
     color: black;
     font-size: 16px;
-    font-weight: 500;
     border: 2px solid black;
     padding: 12px 25px;
     margin-top: 20px;

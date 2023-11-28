@@ -14,7 +14,6 @@ section {
 main{
     width: 100%;
     height: auto;
-    display: flex;
     justify-content: center;
 }
 
@@ -29,9 +28,6 @@ main{
     height: auto;
     margin-top: 70px;
     margin-left: 70px;
-}
-#Flex{
-    justify-content: space-between;
 }
 
 #Texto{

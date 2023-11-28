@@ -13,9 +13,7 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    flex: 1;
 }
 
 /*Produto*/
@@ -32,7 +30,6 @@
 
 #TodosOsProdutos {
     display: flex;
-    flex-direction: row;
 }
 
 #ImgProduto {
@@ -49,12 +46,11 @@
     padding-right: 20px;
     display: flex;
     flex-direction: column;
-
 }
 
 #Principal {
     text-align: left;
-    font-size: xx-large;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -77,9 +73,7 @@
     margin-top: 70px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
 }
 
 /*descricao*/
